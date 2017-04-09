@@ -9,8 +9,6 @@
 # 
 # https://charlesreid1.com/wiki/Docker/Dockerfiles
 
-SED="/bin/sed"
-
 function usage {
 	echo ""
 	echo "build_rsync.sh script:"
