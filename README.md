@@ -25,6 +25,10 @@ To run the docker image:
 This binds port 873 in the container to port 873 in the host machine, 
 which is how the stunnel process communicates with the rsync daemon.
 
+## TL;DR
+
+Run `make`.
+
 ## Building the Docker Container
 
 The `build_rsync.sh` script will do the following:
