@@ -13,13 +13,13 @@ The rsync daemon will listen on a port (873 by default). It can listen on any po
 To build the docker image:
 
 ```
-./build_docker.sh
+./build_rsync.sh
 ```
 
 To run the docker image:
 
 ```
-./run_docker.sh
+./run_rsync.sh
 ```
 
 This binds port 873 in the container to port 873 in the host machine, which is how the stunnel process communicates with the rsync daemon.
