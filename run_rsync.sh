@@ -18,6 +18,9 @@ function usage {
 	echo ""
 }
 
+# If user has not provided a port number,
+# or if it isn't between 1 and 5 digits,
+# raise an error.
 if [[ "$#" -ne 1 || $1 =~ "[0-9]\{1,5\}" ]];
 then
 	usage
