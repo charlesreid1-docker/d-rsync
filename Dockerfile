@@ -12,5 +12,5 @@ RUN apt-get update
 RUN apt-get -y install rsync
 RUN apt-get -y install net-tools
 
-CMD ["/start_rsync_container.sh"]
+CMD ["/entrypoint.sh"]
 
